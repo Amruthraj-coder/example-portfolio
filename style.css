@@ -1,0 +1,46 @@
+.box{
+    display: flex;
+    width:150px;
+    height:150px;
+    background-color: tomato;
+    /* box-shadow: 1000px; */
+    animation-duration: 8s;
+    animation-delay:2s ;
+    animation-timing-function: linear;
+   animation-iteration-count: 5;
+   animation-direction: alternate;
+   position: relative;
+   animation-name:vinny;
+   transition-property: all;
+}
+
+@keyframes vinny{
+    /* from{
+        width:150px;
+        height:150px;
+        background-color: tomato;
+    }   
+    to{
+        width:50px;
+        height:500px;
+        background-color: yellow;
+    } */
+
+25% {
+left:500px;
+top:0;
+}
+50%{
+    left:500px;
+    top:500px;
+}
+75%{
+    left:0;
+    top:500px;
+}
+100%{
+    left:0;
+    top:0;
+}
+
+}
